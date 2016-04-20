@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+    <LinearLayout
+        style="@style/layout_vertical"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp">
+
+        <HorizontalScrollView style="@style/horizontal_scroll_view">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero"
+                android:textSize="100sp" />
+        </HorizontalScrollView>
+
+        <LinearLayout style="@style/layout_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/item_text"
+                    android:text="@string/diameter" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/sub_text"
+                    android:text="@string/in_millimeters" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/button"
+                android:onClick="selectDiameter"
+                android:text="@string/zero" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/layout_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/item_text"
+                    android:text="@string/wall_thick" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    style="@style/sub_text"
+                    android:text="@string/in_millimeters" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/button"
+                android:onClick="selectThickness"
+                android:text="@string/zero" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/layout_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/item_text"
+                    android:text="@string/length_min" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    style="@style/sub_text"
+                    android:text="@string/in_meters" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/button"
+                android:onClick="enterNumber"
+                android:text="@string/zero" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/layout_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/item_text"
+                    android:text="@string/length_max" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    style="@style/sub_text"
+                    android:text="@string/in_meters" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/button"
+                android:onClick="enterNumber"
+                android:text="@string/zero" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/layout_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/item_text"
+                    android:text="@string/pieces" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/button"
+                android:onClick="enterNumber"
+                android:text="@string/zero" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

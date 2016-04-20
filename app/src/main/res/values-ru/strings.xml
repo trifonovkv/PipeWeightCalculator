@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Pipe Calculator</string>
+    <string name="diameter">Диаметр</string>
+    <string name="wall_thick">Стенка</string>
+    <string name="length_min">Длина min</string>
+    <string name="length_max">Длина max</string>
+    <string name="enter">ВВОД</string>
+    <string name="pieces">Кол-во</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="dot">,</string>
+    <string name="clear">C</string>
+    <string name="d63">63,5</string>
+    <string name="t30">3,0</string>
+    <string name="t35">3,5</string>
+    <string name="t40">4,0</string>
+    <string name="t45">4,5</string>
+    <string name="t50">5,0</string>
+    <string name="t55">5,5</string>
+    <string name="t60">6,0</string>
+    <string name="t65">6,5</string>
+    <string name="t70">7,0</string>
+    <string name="mm">in mm</string>
+    <string name="in_meters">в метрах</string>
+    <string name="in_millimeters">в миллиметрах</string>
+</resources>

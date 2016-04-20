@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.trifonov.kos.pipeweightcalculator.DigitsActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/zero"
+                android:textSize="64sp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="right" />
+
+            <TextView
+                style="@style/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onEnterClick"
+                android:text="@string/enter"
+                android:textColor="@android:color/white"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:minWidth="64dp"
+                android:minHeight="36dp"
+                android:background="@color/colorAccent"
+                android:layout_margin="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp">
+
+            <TextView
+                style="@style/calc_button"
+                android:onClick="onDigitClick"
+                android:text="@string/one"
+                android:textSize="42sp" />
+
+            <ImageView style="@style/divider" />
+
+            <TextView
+                style="@style/calc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="center"
+                android:onClick="onDigitClick"
+                android:text="@string/two"
+                android:textSize="42sp" />
+
+            <ImageView style="@style/divider" />
+
+            <TextView
+                style="@style/calc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onDigitClick"
+                android:text="@string/three"
+                android:textSize="42sp" />
+
+            <ImageView style="@style/divider" />
+
+            <TextView
+                style="@style/calc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onDigitClick"
+                android:text="@string/four"
+                android:textSize="42sp" />
+
+            <ImageView style="@style/divider" />
+
+            <TextView
+                style="@style/calc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onDigitClick"
+                android:text="@string/five"
+                android:textSize="42sp" />
+
+            <ImageView style="@style/divider" />
+
+            <TextView
+                style="@style/calc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onDigitClick"
+                android:text="@string/clear"
+                android:textSize="42sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp">
+
+            <TextView
+                style="@style/calc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:gravity="center"
+                android:onClick="onDigitClick"
+                android:text="@string/six"
+                android:textSize="42sp" />
+
+            <ImageView style="@style/divider" />
+
+            <TextView
+                style="@style/calc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onDigitClick"
+                android:text="@string/seven"
+                android:textSize="42sp" />
+
+            <ImageView style="@style/divider" />
+
+            <TextView
+                style="@style/calc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onDigitClick"
+                android:text="@string/eight"
+                android:textSize="42sp" />
+
+            <ImageView style="@style/divider" />
+
+            <TextView
+                style="@style/calc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onDigitClick"
+                android:text="@string/nine"
+                android:textSize="42sp" />
+
+            <ImageView style="@style/divider" />
+
+            <TextView
+                style="@style/calc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onDigitClick"
+                android:text="@string/zero"
+                android:textSize="42sp" />
+
+            <ImageView style="@style/divider" />
+
+            <TextView
+                style="@style/calc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:gravity="center"
+                android:onClick="onDigitClick"
+                android:text="@string/dot"
+                android:textSize="42sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

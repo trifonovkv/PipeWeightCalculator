@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.trifonov.kos.pipeweightcalculator.DiametersActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d32" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d33" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d38" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d42" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d45" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d48" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d51" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d57" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d60" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d63" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d68" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d73" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d76" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d83" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d89" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d102" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView style="@style/diameter_button" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d108" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView style="@style/diameter_button" />
+
+                <ImageView style="@style/divider" />
+
+                <TextView
+                    style="@style/diameter_button"
+                    android:onClick="onDiameterClick"
+                    android:text="@string/d114" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>
